@@ -72,31 +72,36 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+-   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.5.2:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css v2](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Materialize 1.0.0:](https://materializecss.com/getting-started.html)
+    - Materialize was used to assist with the responsiveness and styling of the website.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on the footer of the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery - JavaScript library.
+1. [Flask:](https://flask.palletsprojects.com/en/1.1.x/)
+    - Flask is a micro web framework written in Python.
+1. [MongoDB:](https://www.mongodb.com/)
+    - MongoDB is a cross-platform document-oriented database program. 
+1. [Jinja:](https://jinja.palletsprojects.com/en/2.11.x/)
+    - Jinja is a modern and designer-friendly templating language for Python, modelled after Django’s templates.
+1. [PyMongo:](https://pypi.org/project/pymongo/)
+    - PyMongo is a Python distribution containing tools for working with MongoDB, and is the recommended way to work with MongoDB from Python.
+1. [Werkzeug:](https://pypi.org/project/Werkzeug/)
+    - Werkzeug is a comprehensive WSGI web application library.
+1. [Heroku:](https://www.heroku.com/)
+    - Heroku is a cloud platform as a service supporting several programming languages. 
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/anronuay/MS2-Santorini/tree/master/wireframes) during the design process.
-1. [Google Maps Platform:](https://cloud.google.com/maps-platform) 
-    - Google Maps JavaScript API & Places API.
+    - Balsamiq was used to create the [wireframes](https://github.com/anronuay/MS3-task_wizard/tree/master/wireframes) during the design process.
 1. [WebAIM:](https://webaim.org/resources/contrastchecker/)
     - Contrast checker, relevant in terms of accessibility and UX design.
-1. [PicResize:](https://picresize.com/)
-    - Free original picture editing tool on the Internet. Used to help resize all the map info window images.
-1. [Map Icons Collection:](https://mapicons.mapsmarker.com/)
-    - Free icons for Google Maps or Google Earth. Used as customised markers on my Google map.
 1. [Favicon.io:](https://favicon.io/)
     - Free shortcut icon, website icon, tab icon, URL icon, or bookmark icon, associated with a particular website or web page.
 
