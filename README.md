@@ -2,7 +2,7 @@
 
 **Code Institute - Data Centric Development Milestone Project**
 
-A travel website dedicated to Santorini in Greece, inspired from a recent trip to the islands. Relevant useful information for first time travellers to the island, local attractions, recommended food & drink and places to stay during your visit. Increasing awareness and tourism to the area. 
+A task manager website utilising CRUD (Create, Read, Update & Delete) functionality.
 
 Designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users. Creating an easy, short and informative based site. Whist striving for a minimalist and user-friendly design, to encourage a positive UX.
 
@@ -29,13 +29,24 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
     -   #### Imagery
         -   Strong imagery has been proven to help engage the user. Enticing images were used in the map's info windows, to help with a positive UX.
 
-*   ### Wireframes
+*   ### Wireframes & Database Schema
 
-    -   Desktop Wireframe  - 	[View](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-desktop.page.png)
+    -   Desktop Wireframe (Home/Tasks page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-desktop.wireframe-home:tasks.page.png)
+    -   Desktop Wireframe (Register/Log In page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-desktop.wireframe-register:login.page.png)
+    -   Desktop Wireframe (Profile page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-desktop.wireframe-profile.page.png)
+    -   Desktop Wireframe (Add/Edit tasks page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-desktop.wireframe-add:edit.task.page.png)
+    -   Desktop Wireframe (Admin/Categories page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-desktop.wireframe-admin:categories.page.png)
     
-    -   Tablet Wireframe - 	[View](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-tablet.page.png)
+    -   Tablet Wireframe (Home/Tasks page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-tablet.wireframe-home:tasks.page.png)
+    -   Tablet Wireframe (Register/Log In page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-tablet.wireframe-register:login.page.png)
+    -   Tablet Wireframe (Profile page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-tablet.wireframe-profile.page.png)
+    -   Tablet Wireframe (Add/Edit tasks page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-tablet.wireframe-add:edit.task.page.png)
+    -   Tablet Wireframe (Admin/Categories page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-tablet.wireframe-admin:categories.page.png)
     			
-    -   Mobile Wireframe - 	[View](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-mobile.page.png)
+    -   Mobile Wireframe (Home/Tasks, Register/Log In & Profile pages) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-smartphone.wireframe-home:tasks:register:login:profile.page.png)
+    -   Mobile Wireframe (Add/Edit & Admin/Categories pages) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-smartphone.wireframe-add:edit:admin:categories.page.png)
+    
+    -   Database Schema for Task Wizard - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/database.schema-task.wizard.pdf)
 
 ## Features
 
