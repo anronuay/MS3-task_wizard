@@ -1,4 +1,4 @@
-# TASK WIZARD
+# 🪄TASK WIZARD
 
 **Code Institute - Data Centric Development Milestone Project**
 
