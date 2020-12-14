@@ -14,7 +14,7 @@ $(document).ready(function () {
         }
     });
 
-// Materialize Form Validation (Reference: From Code Institue Data Centric Development module)
+// Materialize Form Validation (Reference: From Code Institute Data Centric Development module)
 
     validateMaterializeSelect();
     function validateMaterializeSelect() {
