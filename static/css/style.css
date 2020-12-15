@@ -18,3 +18,9 @@
 }
 
 /* ------- Media Queries ------- */
+
+@media screen and (max-width: 285px) {
+    #main-text {
+        font-size: 26px;
+    }
+}
