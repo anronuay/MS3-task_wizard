@@ -35,6 +35,8 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
     -   ### Design
     -   #### Colour Scheme
         -   The three main colours used are black, white and [Greek flag] blue, in the footer social links. Keeping the colour scheme simple, yet effective.
+	![Colour Scheme](static/images/coolors.colour.scheme.png)
+
     -   #### Typography
         -   I opted to use the default Bootstrap font Apple System, due to it’s clean font style, which fitted in with the aesthetic I wanted for the website.
     -   #### Imagery
