@@ -190,48 +190,46 @@ Using the Bootstrap layout and mobile fist development method, it allowed me to 
 
 ## Deployment
 
-### GitHub Pages
+### Heroku
 
-The project was deployed to GitHub Pages using the following steps...
+This project uses **Heroku** for deloyment. 
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+In order to successfully deploy the app, the following steps were taken:
 
-### Forking the GitHub Repository
+- Visit GitPod workspace.
+- Create the Flask App.
+- Use the CLI to tell Heroku which applications and dependencies are rquired to run the application via the, `pip3 freeze --local > requirements.txt` command.
+- Create the Procfile via `echo web: python app.py > Procfile`.
+- Visit [Heroku](https://www.heroku.com/).
+- Click, 'Create a New App'.
+- Create an application on Heroku with a unique name **('flask-task-wizard')** to satisfy Heroku requirements.
+- Create the Heroku application.
+- Add the following configuration vars to Heroku application:
+    - `IP`
+    - `PORT`
+    - `MONGO_URI`
+    - `SECRET_KEY`
+    - `MONGO_DBNAME`
+- Visit workspace/IDE.
+- Push newly created `requirements.txt` and `Procfile` to Git.
+- Navigate back to Heroku and enable automatic deployment.
+- Connect Heroku to deploy from the **master** branch of Task Wizard's repository.
+- Successfully deploy the application.
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+## Local Machine
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
+To run the project from your local machine, follow these steps:
 
-### Making a Local Clone
+- Make sure git is installed `git --version`.
+- If Git isn't already configured, configure Git:
+    - `git config --global user.name "your_username"`
+    - `git config --global user.email "your_email_address@example.com"`
+- Check the configuration:
+    - `git config --global --list`
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
+- **Clone** the application in your local environment via command:
 
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
+    - `gh repo clone anronuay/MS3-task_wizard`
 
 <span id="credits"></span>
 
