@@ -123,6 +123,12 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
     - Contrast checker, relevant in terms of accessibility and UX design.
 1. [Favicon.io:](https://favicon.io/)
     - Free shortcut icon, website icon, tab icon, URL icon, or bookmark icon, associated with a particular website or web page.
+1. [Multi Device Website Mockup Generator:](https://techsini.com/multi-mockup/)
+    - Multi device website mockup generator is a free online tool to test your responsive website on apple devices including Apple iMac, MacBook, iPad and iPhone.
+1. [Coolors:](https://coolors.co/)
+    - Generate or browse beautiful color combinations for your designs.
+1. [Lucidchart:](https://www.lucidchart.com/pages/)
+    - Lucidchart is a web-based proprietary platform that allows users to collaborate on drawing, revising and sharing charts and diagrams.
 
 <span id="testing"></span>
 
