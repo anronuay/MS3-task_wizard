@@ -107,11 +107,12 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Along with JS Hint to ensure there were no linting issues with my JavaScript.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Along with JS Hint to ensure there were no linting issues with my JavaScript and PEP 8 compliant Python code.
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/anronuay/MS2-Santorini/blob/master/assets/images/w3c-markup.validator.png)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/anronuay/MS2-Santorini/blob/master/assets/images/w3c-css.validator.png)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Only errors received, were relating to the Jinja syntax.
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/w3c-css.validator.png)
 -   [JS Hint Version 2.12.0](https://jshint.com/)
+-   [PEP8 online](http://pep8online.com/) - [Results]()
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -217,20 +218,17 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Code
 
--   [W3Schools](https://www.w3schools.com/) online web tutorials used throughout, reinforcing my knowledge acquired through the course.
--   [Bootstrap4](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
--   [Google Maps Platform](https://cloud.google.com/maps-platform) Google Maps JavaScript API & Places API.
--   [Traversy Media](https://youtu.be/Zxf1mnP5zcw) YouTube Google Maps JavaScript API Tutorial.
--   [Stack Overflow](https://stackoverflow.com/) Public platform is used by nearly everyone who codes, to learn, share their knowledge and collaborate.
+-   [W3Schools:](https://www.w3schools.com/) Online web tutorials used throughout, reinforcing my knowledge acquired through the course.
+-   [Materialize 1.0.0:](https://materializecss.com/getting-started.html) A modern responsive front-end framework based on Material Design.
+-   [Mike Dane:](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) YouTube Python & MongoDB Tutorials.
+-   [freeCodeCamp.org:](https://youtu.be/Z1RJmh_OqeA) YouTube 'Learn Flask for Python - Full Tutorial'.
+-   [Stack Overflow:](https://stackoverflow.com/) Public platform is used by nearly everyone who codes, to learn, share their knowledge and collaborate.
+-   Code Institute: Reference from Code Institute's Data Centric Development module.
 
 
 ### Content
 
 -   All content was written by the developer, unless stated otherwise.
-
-### Media
-
--   [Unsplash](https://unsplash.com/): The internet’s source of freely-usable images. Powered by creators everywhere.
 
 ### Acknowledgements
 
