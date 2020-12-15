@@ -40,7 +40,7 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
     -   #### Imagery
         -   Strong imagery has been proven to help engage the user. Enticing images were used in the map's info windows, to help with a positive UX.
 
-*   ### Wireframes & Database Schema
+*   ### Wireframes
 
     -   Desktop Wireframe (Home/Tasks page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-desktop.wireframe-home:tasks.page.png)
     -   Desktop Wireframe (Register/Log In page) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-desktop.wireframe-register:login.page.png)
@@ -57,7 +57,9 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
     -   Mobile Wireframe (Home/Tasks, Register/Log In & Profile pages) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-smartphone.wireframe-home:tasks:register:login:profile.page.png)
     -   Mobile Wireframe (Add/Edit & Admin/Categories pages) - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-smartphone.wireframe-add:edit:admin:categories.page.png)
     
-    -   Database Schema for Task Wizard - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/database.schema-task.wizard.pdf)
+*   ### Database Schema  
+
+![Data Schema](static/images/database.schema-task.wizard.png)
 
 <span id="features"></span>
 
