@@ -28,19 +28,19 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
     -   ### Visitor Goals
 
-        1. As a user, I want to easily understand the main purpose of the site and learn more about the destination Santorini.
-        2. As a user, I want to be able to easily navigate throughout the site to find content.
-        3. As a user, I want to look for information relevant to Santorini that could help aid a prospective visitor/traveller to the island. Both in the form of recommendations and other dedicated Santorini travel sites, in the social media links.
+        1. As a user, I want to easily understand the main purpose of the site and learn more about the functionality of the website.
+        2. As a user, I want to be able to easily navigate throughout the site, to find and enage in content.
+        3. As a user, I want to be able to register or/and log in and access personal user profile/accounts relevant to the user. To enable them access to their own specified tasks, with the ability to create, read, update and delete functions.
 	
     -   ### Design
     -   #### Colour Scheme
-        -   The three main colours used are black, white and [Greek flag] blue, in the footer social links. Keeping the colour scheme simple, yet effective.
+        -   The three main colours used are dim gray, yellow orange and persimmon. Keeping the colour scheme simple, yet effective.
 	![Colour Scheme](static/images/coolors.colour.scheme.png)
 
     -   #### Typography
-        -   I opted to use the default Bootstrap font Apple System, due to it’s clean font style, which fitted in with the aesthetic I wanted for the website.
+        -   I opted to use the default Materialize font Roboto 2.0, due to it’s clean font style, which fitted in with the aesthetic I wanted for the website.
     -   #### Imagery
-        -   Strong imagery has been proven to help engage the user. Enticing images were used in the map's info windows, to help with a positive UX.
+        -   Due to the simplicty of the design and functionality of the website, I chose not to include imagery within the UX. However there could be further scope to include this in a future edition.
 
 *   ### Wireframes
 
@@ -71,14 +71,17 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 -   Responsive on all device sizes.
 -   Interactive elements.
--   Google Maps API - Using JavaScript Maps API, recommended custom markers are listed to the inbuilt map.
-- Places Search Box - Using Places API, allows the user to search for other places of interest listed within the Country of Greece on Google.
+-   Register an profile/account, Log In & Log Out functionality.
+-   Create, Read, Update and Delete functionality, within the website database.
+-   All users can create entries, after the register/log in process.
+-   Admin only privileges, to manage categories section/page.
+-   Users can only edit and/or delete their own entries.
 
 ### Future Features
 
-- Show user location on the map, using their GPS. Thus allowing the user to compare their location to the recommendations [directions etc].
-- Expand the website to include more destinations, on the neighbouring islands within Greece.
-- Expand with more categories for the customised markers.
+-   Admin user, to include addtional formatting that includes the Admin user privileges to edit all tasks. Not just their own.
+-   Marks tasks completed, instead of deleting it from the database/website. A history of previously completed tasks on the user's profile.
+-   Apply some defensive programming, to confirm if user wants to delete a action/task or not. To prevent accidental deleted entries.
 
 ### 
 
@@ -145,17 +148,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### User Stories
 
-    1. As a user, I want to easily understand the main purpose of the site and learn more about the destination Santorini.
+    1. As a user, I want to easily understand the main purpose of the site and learn more about the functionality of the website.
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable header, with the text 'Explore Santorini'. Underneath there is a small paragraph outlining the intention, recommendations for the island of Santorini, Greece. 
         2. A map of Santorini, Greece is presented below the text to allow the user to engage with the map, search bar, marker icons and info window boxes.
 
-    2. As a user, I want to be able to easily navigate throughout the site to find content.
+    2. As a user, I want to be able to easily navigate throughout the site, to find and enage in content.
 
         1. The website was designed with the intention to be easy, simple to use and the content to be pretty self explanatory.
         2. Interactively via the map, three categories under the headings of attractions, restaurants and places to stay. Clearly displayed and marked under different universal logo/images and colour coded, with info window boxes displaying images of said recommendations and a link to learn more.
 
-    3. As a user, I want to look for information relevant to Santorini that could help aid a prospective visitor/traveller to the island. Both in the form of recommendations and other dedicated Santorini travel sites, in the social media links.
+    3. As a user, I want to be able to register or/and log in and access personal user profile/accounts relevant to the user. To enable them access to their own specified tasks, with the ability to create, read, update and delete function.
 
         1. The integrated search bar embedded in the map section allows the user to search for other related destinations [attractions, restaurants & hotels], within Santorini and Greece.
         2. The social media links in the footer, reinforces additional content and information for Santorini, allowing the user to broaden their knowledge about the island.
@@ -252,7 +255,7 @@ To run the project from your local machine, follow these steps:
 -   [Mike Dane:](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) YouTube Python & MongoDB Tutorials.
 -   [freeCodeCamp.org:](https://youtu.be/Z1RJmh_OqeA) YouTube 'Learn Flask for Python - Full Tutorial'.
 -   [Stack Overflow:](https://stackoverflow.com/) Public platform is used by nearly everyone who codes, to learn, share their knowledge and collaborate.
--   Code Institute: Reference from Code Institute's Data Centric Development module.
+-   [Code Institute:](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/course/)Reference from Code Institute's Data Centric Development module & Task Manager Mini Project.
 
 
 ### Content
