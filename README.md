@@ -11,6 +11,17 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 <h2 align="center"><img src="static/images/website-mockup.image.png"></h2>
 
+## Table of Contents
+
+- <a href="#ux">User Experience</a>
+- <a href="#features">Features</a>
+- <a href="#technologies">Technologies Used</a>
+- <a href="#testing">Testing</a>
+- <a href="#deployment">Deployment</a>
+- <a href="#credits">Credits</a>
+
+<span id="ux"></span>
+
 ## User Experience (UX)
 
 -   ### User stories
@@ -48,6 +59,8 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
     
     -   Database Schema for Task Wizard - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/database.schema-task.wizard.pdf)
 
+<span id="features"></span>
+
 ## Features
 
 ### Existing Features
@@ -64,6 +77,8 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 - Expand with more categories for the customised markers.
 
 ### 
+
+<span id="technologies"></span>
 
 ## Technologies Used
 
@@ -105,6 +120,8 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 1. [Favicon.io:](https://favicon.io/)
     - Free shortcut icon, website icon, tab icon, URL icon, or bookmark icon, associated with a particular website or web page.
 
+<span id="testing"></span>
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Along with JS Hint to ensure there were no linting issues with my JavaScript and PEP 8 compliant Python code.
@@ -112,7 +129,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Only errors received, were relating to the Jinja syntax.
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/w3c-css.validator.png)
 -   [JS Hint Version 2.12.0](https://jshint.com/)
--   [PEP8 online](http://pep8online.com/) - [Results]()
+-   [PEP8 online](http://pep8online.com/) - [Results](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/pep8online.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -169,6 +186,8 @@ Using the Bootstrap layout and mobile fist development method, it allowed me to 
 
 - When the same process is ended with the user pressing the enter button to action, or selecting via the keyboard arrows, the website is responsive, as intended. After following this query up with Code Institute's Tutor Support team, they informed me that they had not encountered this issue before. After checking through the JavaScript, they concluded that it was a glitch within Google Maps.
 
+<span id="deployment"></span>
+
 ## Deployment
 
 ### GitHub Pages
@@ -213,6 +232,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
+
+<span id="credits"></span>
 
 ## Credits
 
