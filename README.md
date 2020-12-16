@@ -150,49 +150,72 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a user, I want to easily understand the main purpose of the site and learn more about the functionality of the website.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable header, with the text 'Explore Santorini'. Underneath there is a small paragraph outlining the intention, recommendations for the island of Santorini, Greece. 
-        2. A map of Santorini, Greece is presented below the text to allow the user to engage with the map, search bar, marker icons and info window boxes.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navbar, with the title 'Task Wizard' and the header 'All Tasks'. Underneath there is a small paragraph outlining the intention and various entries from other users with their relevant tasks below.
+        2. All Tasks search bar and collapsible task list, when clicked on reveal additional infomation to the user. Prompting the user to either register or log in to gain additional access to the website.
 
     2. As a user, I want to be able to easily navigate throughout the site, to find and enage in content.
 
         1. The website was designed with the intention to be easy, simple to use and the content to be pretty self explanatory.
-        2. Interactively via the map, three categories under the headings of attractions, restaurants and places to stay. Clearly displayed and marked under different universal logo/images and colour coded, with info window boxes displaying images of said recommendations and a link to learn more.
+        2. Interactively via the task manager application, allowing additonal access once user is registered and/or logged in.
 
     3. As a user, I want to be able to register or/and log in and access personal user profile/accounts relevant to the user. To enable them access to their own specified tasks, with the ability to create, read, update and delete function.
 
-        1. The integrated search bar embedded in the map section allows the user to search for other related destinations [attractions, restaurants & hotels], within Santorini and Greece.
-        2. The social media links in the footer, reinforces additional content and information for Santorini, allowing the user to broaden their knowledge about the island.
+        1. CRUD functionality enabled for all registered/logged in users. Users can only edit and delete their own task entries.
+        2. Only Admin user can manage categories section, with CRUD functionality.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPad, iPhone 5SE, Samsung Galaxy S10 and all mobile device options provided by Google Chrome DevTools.
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPad, iPhone 5SE, iPhone7, iPhone 8, Samsung Galaxy S10 and all mobile device options provided by Google Chrome DevTools.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Manual Testing
 
-Using the Bootstrap layout and mobile fist development method, it allowed me to create a responsive website. All of the content resizes appropriately within the size of the displayed screen. This was tested using Google Chrome DevTools, allowing me to use the responsive feature and set mobile devices, to resize the screen and see how the website responded to different device screen sizes. 
+Using the Materialize layout and mobile fist development method, it allowed me to create a responsive website. All of the content resizes appropriately within the size of the displayed screen. This was tested using Google Chrome DevTools, allowing me to use the responsive feature and set mobile devices, to resize the screen and see how the website responded to different device screen sizes. 
 
-1. Map:
-    1. Map loads centred on Santorini, Greece.
-    2. Customised marker icons, image and colour coded to allow easability and functionality for the user.
-    3. Info windows appear, one at a time, when the user clicks on the relevant marker.
-    4. Additional information is provided with a link, to learn more about said recommendation. Reinforced with a strong image of the destination.
-    5. Search bar enables the user to search for further destinations within Santorini and Greece.
-    6. Drop down list which includes both places and predicted search terms.
-    7. Once selected, a red marker highlights said destination and pins it to the centre of the map.
-    8. Included functionally provided within Google Maps, scrolling function, with toggle fullscreen view, Google logo [opens new window, within Google Maps], drag pegman on to the map to open street view and zoom in & zoom out buttons. 
-    9. No console errors detected.
+1. Home/All Tasks:
+    1. Search bar enables the user to search through task list, using key words.
+    2. Drop down task list, once clicked on, includes additional information about the task.
+    3. Includes, task category, task name, task description, due date, user name and if the task is or is not urgent.
+    4. Once the user is either logged in or registered, allows the user to either/or edit and delete their own tasks.
+    5. Navbar allows the user to either/or log in and register to their profile/account.
+    6. Flash messages to allow user reponsive feedback from action.
+    7. No console errors detected.
     
-2. Social Links:
-    1. Social link icons load correctly at the footer of the website.
-    2. Simple black social link icons, to fit in with the rest of the page. Hover colour chosen was blue from the Greek flag.
-    3. Once the user clicks on the relevant icon, a new tab opens displaying said content.
-    4. Either Facebook, Twitter, Instagram or YouTube.
-    5. All social links are dedicated Santorini travel websites. 
+2. Log In/Register:
+    1. Prompt for user to enter, username and password, to log in and/or register.
+    2. Both fields will except characters from 5 to 15 in length, including combinations of either/or letters and numbers.
+    3. The user must meet these requiremenmts or a prompt will instruct them to match the correct format.
+    4. Addtional link provided below, to either register or log in, or vice versa, to allow the user ease of navigation.
+    5. Flash messages to allow user reponsive feedback from action.
     6. No console errors detected.
-
+    
+3. Profile:
+    1. Simple card tile, indcicating the user profile logged in.
+    2. Navbar allows the user ease of navigation around the website.
+    3. Home, Profile, New Task, Manage Categories (Admin user only) and Log Out functions.
+    4. Flash messages to allow user reponsive feedback from action.
+    5. No console errors detected.
+    
+4. Add/Edit Task:
+    1. Form with the following complusory fields required.
+    2. Task Category (from drop down list), Task Name, Task Description, Due Date and toggle to mark if the task is or is not urgent.
+    3. Navbar allows the user ease of navigation around the website.
+    4. Home, Profile, New Task, Manage Categories (Admin user only) and Log Out functions.
+    5. Flash messages to allow user reponsive feedback from action.
+    6. No console errors detected.
+  
+5. Admin/Categories:
+    1. Only Admin user has privileges to access and mantain the categories section of the website.
+    2. A list formatted with simple card tiles, of the different task categories (listed alphabetically).
+    3. Addional functionality, to allow Admin to either/or add, edit and delete task categories.
+    4. Edit Category enables Admin to edit category name. Or to cancel, to revert back to original text.
+    5. Navbar allows the user ease of navigation around the website.
+    6. Home, Profile, New Task, Manage Categories (Admin user only) and Log Out functions.
+    7. Flash messages to allow user reponsive feedback from action.
+    8. No console errors detected.
+    
 ### Known Bugs
 
 -   Places Search Box - When the user searches for a place and selects from the predicted search terms and either clicks with their mouse or selects via touch screen on mobile devices. The map will seem unresponsive. However when prompted again it works as intended. 
@@ -255,7 +278,7 @@ To run the project from your local machine, follow these steps:
 -   [Mike Dane:](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) YouTube Python & MongoDB Tutorials.
 -   [freeCodeCamp.org:](https://youtu.be/Z1RJmh_OqeA) YouTube 'Learn Flask for Python - Full Tutorial'.
 -   [Stack Overflow:](https://stackoverflow.com/) Public platform is used by nearly everyone who codes, to learn, share their knowledge and collaborate.
--   [Code Institute:](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/course/)Reference from Code Institute's Data Centric Development module & Task Manager Mini Project.
+-   [Code Institute:](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/course/) Reference from Code Institute's Data Centric Development module & Task Manager Mini Project.
 
 
 ### Content
