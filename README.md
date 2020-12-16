@@ -40,7 +40,7 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
     -   #### Typography
         -   I opted to use the default Materialize font Roboto 2.0, due to it’s clean font style, which fitted in with the aesthetic I wanted for the website.
     -   #### Imagery
-        -   Due to the simplicty of the design and functionality of the website, I chose not to include imagery within the UX. However there could be further scope to include this in a future edition.
+        -   Due to the simplicity of the design and functionality of the website, I chose not to include imagery within the UX. However there could be further scope to include this in a future edition.
 
 *   ### Wireframes
 
@@ -71,7 +71,7 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 -   Responsive on all device sizes.
 -   Interactive elements.
--   Register an profile/account, Log In & Log Out functionality.
+-   Register a profile/account, Log In & Log Out functionality.
 -   Create, Read, Update and Delete functionality, within the website database.
 -   All users can create entries, after the register/log in process.
 -   Admin only privileges, to manage categories section/page.
@@ -79,9 +79,9 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 ### Future Features
 
--   Admin user, to include addtional formatting that includes the Admin user privileges to edit all tasks. Not just their own.
+-   Admin user, to include additional formatting that includes the Admin user privileges to edit all tasks. Not just their own.
 -   Marks tasks completed, instead of deleting it from the database/website. A history of previously completed tasks on the user's profile.
--   Apply some defensive programming, to confirm if user wants to delete a action/task or not. To prevent accidental deleted entries.
+-   Apply some defensive programming, to confirm if user wants to delete an action/task or not. To prevent accidental deleted entries.
 
 ### 
 
@@ -129,7 +129,7 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 1. [Multi Device Website Mockup Generator:](https://techsini.com/multi-mockup/)
     - Multi device website mockup generator is a free online tool to test your responsive website on apple devices including Apple iMac, MacBook, iPad and iPhone.
 1. [Coolors:](https://coolors.co/)
-    - Generate or browse beautiful color combinations for your designs.
+    - Generate or browse beautiful colour combinations for your designs.
 1. [Lucidchart:](https://www.lucidchart.com/pages/)
     - Lucidchart is a web-based proprietary platform that allows users to collaborate on drawing, revising and sharing charts and diagrams.
 
@@ -151,12 +151,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. As a user, I want to easily understand the main purpose of the site and learn more about the functionality of the website.
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navbar, with the title 'Task Wizard' and the header 'All Tasks'. Underneath there is a small paragraph outlining the intention and various entries from other users with their relevant tasks below.
-        2. All Tasks search bar and collapsible task list, when clicked on reveal additional infomation to the user. Prompting the user to either register or log in to gain additional access to the website.
+        2. All Tasks search bar and collapsible task list, when clicked on reveal additional information to the user. Prompting the user to either register or log in to gain additional access to the website.
 
-    2. As a user, I want to be able to easily navigate throughout the site, to find and enage in content.
+    2. As a user, I want to be able to easily navigate throughout the site, to find and engage in content.
 
         1. The website was designed with the intention to be easy, simple to use and the content to be pretty self explanatory.
-        2. Interactively via the task manager application, allowing additonal access once user is registered and/or logged in.
+        2. Interactively via the task manager application, allowing additional access once user is registered and/or logged in.
 
     3. As a user, I want to be able to register or/and log in and access personal user profile/accounts relevant to the user. To enable them access to their own specified tasks, with the ability to create, read, update and delete function.
 
@@ -180,54 +180,56 @@ Using the Materialize layout and mobile fist development method, it allowed me t
     3. Includes, task category, task name, task description, due date, user name and if the task is or is not urgent.
     4. Once the user is either logged in or registered, allows the user to either/or edit and delete their own tasks.
     5. Navbar allows the user to either/or log in and register to their profile/account.
-    6. Flash messages to allow user reponsive feedback from action.
+    6. Flash messages to allow user responsive feedback from action.
     7. No console errors detected.
     
-2. Log In/Register: [View: Log In]() [View: Register]() [View: Username already exists]()
+2. Log In/Register: [View: Log In](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-login.png) [View: Register](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-register.png) [View: Username already exists](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-username.png)
     1. Prompt for user to enter, username and password, to log in and/or register.
     2. Both fields will except characters from 5 to 15 in length, including combinations of either/or letters and numbers.
-    3. The user must meet these requiremenmts or a prompt will instruct them to match the correct format.
-    4. Addtional link provided below, to either register or log in, or vice versa, to allow the user ease of navigation.
-    5. Flash messages to allow user reponsive feedback from action.
+    3. The user must meet these requirements or a prompt will instruct them to match the correct format.
+    4. Additional link provided below, to either register or log in, or vice versa, to allow the user ease of navigation.
+    5. Flash messages to allow user responsive feedback from action.
     6. No console errors detected.
     
 3. Profile: [View: Admin Profile](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-adminprofile.png) [View: Standard Profile](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-profile.png)
-    1. Simple card tile, indcicating the user profile logged in.
+    1. Simple card tile, indicating the user profile logged in.
     2. Navbar allows the user ease of navigation around the website.
     3. Home, Profile, New Task, Manage Categories (Admin user only) and Log Out functions.
-    4. Flash messages to allow user reponsive feedback from action.
+    4. Flash messages to allow user responsive feedback from action.
     5. No console errors detected.
     
-4. Add/Edit Task: [View: Add Task](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-addtask.png) [View: Edit Task]()
-    1. Form with the following complusory fields required.
+4. Add/Edit Task: [View: Add Task](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-addtask.png) [View: Edit Task](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-edittask.png)
+    1. Form with the following compulsory fields required.
     2. Task Category (from drop down list), Task Name, Task Description, Due Date and toggle to mark if the task is or is not urgent.
     3. Navbar allows the user ease of navigation around the website.
     4. Home, Profile, New Task, Manage Categories (Admin user only) and Log Out functions.
-    5. Flash messages to allow user reponsive feedback from action.
+    5. Flash messages to allow user responsive feedback from action.
     6. No console errors detected.
   
 5. Admin/Categories: [View: Manage Categories](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-managecategories.png) [View: Add Categories](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-addcategories.png) [View: Edit Categories](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-editcategories.png)
-    1. Only Admin user has privileges to access and mantain the categories section of the website.
+    1. Only Admin user has privileges to access and maintain the categories section of the website.
     2. A list formatted with simple card tiles, of the different task categories (listed alphabetically).
-    3. Addional functionality, to allow Admin to either/or add, edit and delete task categories.
+    3. Additional functionality, to allow Admin to either/or add, edit and delete task categories.
     4. Edit Category enables Admin to edit category name. Or to cancel, to revert back to original text.
     5. Navbar allows the user ease of navigation around the website.
     6. Home, Profile, New Task, Manage Categories (Admin user only) and Log Out functions.
-    7. Flash messages to allow user reponsive feedback from action.
+    7. Flash messages to allow user responsive feedback from action.
     8. No console errors detected.
     
-6. Log Out: [View]()
+6. Log Out: [View](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-logout.png)
     1. Log In page.
-    2. Flash messages to allow user reponsive feedback from action.
+    2. Flash messages to allow user responsive feedback from action.
     3. Navbar allows the user ease of navigation around the website.
     4. Home, Log In and Register functions.
     6. No console errors detected.
     
 ### Known Bugs
 
--   Places Search Box - When the user searches for a place and selects from the predicted search terms and either clicks with their mouse or selects via touch screen on mobile devices. The map will seem unresponsive. However when prompted again it works as intended. 
+- On small mobile devices, Home/All Tasks and Admin Edit Category pages. The buttons seem to stack each other and lose their positioning, this also effects the search tasks box. Creating a more cluttered look to the UX. Given more time, this would be something I would rectify, to keep within the design aesthetic for the rest of the website.
 
-- When the same process is ended with the user pressing the enter button to action, or selecting via the keyboard arrows, the website is responsive, as intended. After following this query up with Code Institute's Tutor Support team, they informed me that they had not encountered this issue before. After checking through the JavaScript, they concluded that it was a glitch within Google Maps.
+- Currently only one Admin user, has privileges to the Manage Categories section of the website. This can be problematic further down the line, when/if the website requires more maintenance and would need to be reassessed to allow for multiple Admin users to connect.
+
+- MongoDB, storing the Object ID as the primary key for the collection, due to it being a unique identifier. However, within this website/scenario, we have to assume both the Username & Category Name are not changeable and unique. As this can potentially run into errors, due to them being (VARCHAR) string variants.
 
 <span id="deployment"></span>
 
@@ -235,13 +237,13 @@ Using the Materialize layout and mobile fist development method, it allowed me t
 
 ### Heroku
 
-This project uses **Heroku** for deloyment. 
+This project uses **Heroku** for deployment. 
 
 In order to successfully deploy the app, the following steps were taken:
 
 - Visit GitPod workspace.
 - Create the Flask App.
-- Use the CLI to tell Heroku which applications and dependencies are rquired to run the application via the, `pip3 freeze --local > requirements.txt` command.
+- Use the CLI to tell Heroku which applications and dependencies are required to run the application via the, `pip3 freeze --local > requirements.txt` command.
 - Create the Procfile via `echo web: python app.py > Procfile`.
 - Visit [Heroku](https://www.heroku.com/).
 - Click, 'Create a New App'.
