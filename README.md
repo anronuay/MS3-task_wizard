@@ -174,7 +174,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 Using the Materialize layout and mobile fist development method, it allowed me to create a responsive website. All of the content resizes appropriately within the size of the displayed screen. This was tested using Google Chrome DevTools, allowing me to use the responsive feature and set mobile devices, to resize the screen and see how the website responded to different device screen sizes. 
 
-1. Home/All Tasks:
+1. Home/All Tasks: [View](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-alltasks.png)
     1. Search bar enables the user to search through task list, using key words.
     2. Drop down task list, once clicked on, includes additional information about the task.
     3. Includes, task category, task name, task description, due date, user name and if the task is or is not urgent.
@@ -183,7 +183,7 @@ Using the Materialize layout and mobile fist development method, it allowed me t
     6. Flash messages to allow user reponsive feedback from action.
     7. No console errors detected.
     
-2. Log In/Register:
+2. Log In/Register: [View: Log In]() [View: Register]() [View: Username already exists]()
     1. Prompt for user to enter, username and password, to log in and/or register.
     2. Both fields will except characters from 5 to 15 in length, including combinations of either/or letters and numbers.
     3. The user must meet these requiremenmts or a prompt will instruct them to match the correct format.
@@ -191,14 +191,14 @@ Using the Materialize layout and mobile fist development method, it allowed me t
     5. Flash messages to allow user reponsive feedback from action.
     6. No console errors detected.
     
-3. Profile:
+3. Profile: [View: Admin Profile](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-adminprofile.png) [View: Standard Profile](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-profile.png)
     1. Simple card tile, indcicating the user profile logged in.
     2. Navbar allows the user ease of navigation around the website.
     3. Home, Profile, New Task, Manage Categories (Admin user only) and Log Out functions.
     4. Flash messages to allow user reponsive feedback from action.
     5. No console errors detected.
     
-4. Add/Edit Task:
+4. Add/Edit Task: [View: Add Task](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-addtask.png) [View: Edit Task]()
     1. Form with the following complusory fields required.
     2. Task Category (from drop down list), Task Name, Task Description, Due Date and toggle to mark if the task is or is not urgent.
     3. Navbar allows the user ease of navigation around the website.
@@ -206,7 +206,7 @@ Using the Materialize layout and mobile fist development method, it allowed me t
     5. Flash messages to allow user reponsive feedback from action.
     6. No console errors detected.
   
-5. Admin/Categories:
+5. Admin/Categories: [View: Manage Categories](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-managecategories.png) [View: Add Categories](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-addcategories.png) [View: Edit Categories](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/website-screenshots/website.screenshot-editcategories.png)
     1. Only Admin user has privileges to access and mantain the categories section of the website.
     2. A list formatted with simple card tiles, of the different task categories (listed alphabetically).
     3. Addional functionality, to allow Admin to either/or add, edit and delete task categories.
@@ -215,6 +215,13 @@ Using the Materialize layout and mobile fist development method, it allowed me t
     6. Home, Profile, New Task, Manage Categories (Admin user only) and Log Out functions.
     7. Flash messages to allow user reponsive feedback from action.
     8. No console errors detected.
+    
+6. Log Out: [View]()
+    1. Log In page.
+    2. Flash messages to allow user reponsive feedback from action.
+    3. Navbar allows the user ease of navigation around the website.
+    4. Home, Log In and Register functions.
+    6. No console errors detected.
     
 ### Known Bugs
 
